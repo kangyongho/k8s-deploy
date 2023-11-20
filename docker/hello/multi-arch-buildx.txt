@@ -1,0 +1,23 @@
+# 도커 멀티 아키텍쳐 빌드 방법
+출처: https://kimjingo.tistory.com/115 [김징어의 Devlog:티스토리]
+
+# buildx 사용
+
+# 순서
+
+docker login
+
+docker buildx ls
+
+# 새로운 빌더 생성
+docker buildx create --name mybuilder
+
+docker buildx use mybuilder
+
+docker buildx inspect --bootstrap
+
+# 이미지 빌드
+$ docker buildx build \
+--platform linux/amd64,linux/arm64,linux/arm/v7 \
+-t mhmhm3/multi-arch-test:latest \
+--push .
