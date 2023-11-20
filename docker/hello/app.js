@@ -14,7 +14,10 @@ app.get("/", (req, res) => {
   // 기본 방식
   // res.send("hello yongho. Pulled from Docker Hub");
   // ejs rendering 방식
-  return res.render('index', {data : 'hello yongho. Pulled from Docker Hub'});
+  return res.render('index', {
+    data : 'hello yongho. Pulled from Docker Hub!',
+    arch : process.arch
+  });
 });
 
 app.listen(port);
