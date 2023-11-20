@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>body {background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);}</style>
+    <title>hello docker</title>
+</head>
+<body>
+    <h1><%= locals.PROJECT_NAME %></h1>
+    <h2><%= locals.GREETING %></h2>
+    <h2>arch: <%= locals.arch %></h2>
+    
+    ===== POD INFO =====
+    <h2>POD-NAME: <%= locals.POD_NAME %></h2>
+    <h2>POD-IP: <%= locals.POD_IP %></h2>
+    
+    ===== HOST INFO =====
+    <h2>NAMESPACE: <%= locals.NAMESPACE_NAME %></h2>
+    <h2>HOST-NAME: <%= locals.NODE_NAME %></h2>
+    <h2>HOST-IP: <%= locals.NODE_IP %></h2>
+    
+    
+</body>
+</html>
