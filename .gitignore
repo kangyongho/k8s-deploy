@@ -6,4 +6,4 @@
 
 # node
 package-lock.json
-docker/node_modules
+node_modules
