@@ -17,6 +17,7 @@ spec:
       containers:
       - name: k8s-hello
         image: mirlang2/k8s-hello:1.0
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
         env:
