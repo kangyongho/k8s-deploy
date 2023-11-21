@@ -5,6 +5,7 @@
 # 2. create service resource
 # 3. change svc selector
 
+# test blue-green deploy
 kubectl apply -f blue-deployment.yaml
 kubectl get pods
 kubectl get deploymnets.app
