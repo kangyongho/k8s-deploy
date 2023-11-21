@@ -6,19 +6,18 @@
     <title>hello docker</title>
 </head>
 <body>
-    <% if(typeof(locals.PROJECT_NAME) =="undefined") { %>
-        <h1>PROJECT_NAME</h1>
-    <% } else { %>
-        <h1><%= locals.PROJECT_NAME %></h1>
-    <% } %>
+    <h1><%= locals.PROJECT_NAME %></h1>
     <h2><%= locals.GREETING %></h2>
     <h2><%= locals.data %></h2>
     <h2>arch: <%= locals.arch %></h2>
     
+    ===== VERSION INFO =====
+    <h2>IMAGE VERSION: 2.0</h2>
+
     ===== POD INFO =====
     <h2>POD-NAME: <%= locals.POD_NAME %></h2>
     <h2>POD-IP: <%= locals.POD_IP %></h2>
-    
+
     ===== HOST INFO =====
     <h2>NAMESPACE: <%= locals.NAMESPACE_NAME %></h2>
     <h2>HOST-NAME: <%= locals.NODE_NAME %></h2>
