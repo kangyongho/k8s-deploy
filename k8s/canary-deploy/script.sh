@@ -11,7 +11,7 @@
 kubectl apply -f blue-deployment.yaml
 kubectl expose deployment blue --type=NodePort --port=80 --target-port=8080 --name=canary-svc --dry-run=client -o yaml > app-svc.yaml
 # edit svc selector. left only common label
-# selector.name,app
+# selector.name.app
 kubectl apply -f app-svc.yaml
 kubectl apply -f canary-deployment.yaml
 # check nodeport
