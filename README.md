@@ -1,9 +1,16 @@
-# k8s-deploy
-test k8s deploy
+# K8S DEPLOY PROJECT
 
-**INFO**
+#### 사용기술 및 IDE
+<img src="https://img.shields.io/badge/docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/dockerhub-2496ED?style=flat-square&logo=docker&logoColor=white"/> 
+<img src="https://img.shields.io/badge/kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/> 
+<img src="https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white"/> 
+<img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white"/> 
+<img src="https://img.shields.io/badge/SourceTree-0052CC?style=flat-square&logo=sourcetree&logoColor=white"/> 
+<img src="https://img.shields.io/badge/VSCODE-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> 
 
-**kubernetes deploy test**
+#### INFO
+
+#### kubernetes deploy test
 
 1. Docker image build and push Dockerhub
 2. multiplatform build using buildx
