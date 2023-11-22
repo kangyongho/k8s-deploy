@@ -7,6 +7,7 @@
 <img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white"/> 
 <img src="https://img.shields.io/badge/SourceTree-0052CC?style=flat-square&logo=sourcetree&logoColor=white"/> 
 <img src="https://img.shields.io/badge/VSCODE-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white"/>
 
 #### INFO
 
@@ -18,3 +19,5 @@
 4. test Rolling Update
 5. test BlueGreen Deploy
 6. test Canary Deploy
+
+[0]: https://www.naver.com
