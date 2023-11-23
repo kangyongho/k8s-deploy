@@ -9,9 +9,8 @@
 <img src="https://img.shields.io/badge/VSCODE-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white"/>
 
-#### Notion
+#### Notion ---> [Link][0]
 <img src="https://github.com/kangyongho/k8s-deploy/assets/14036077/0029d2cf-b9ba-483c-a065-df1b5aa63250" width="200" height="264"/>
-
 
 #### INFO
 
@@ -24,4 +23,4 @@
 5. test BlueGreen Deploy
 6. test Canary Deploy
 
-[0]: https://www.naver.com
+[0]: http://bit.ly/3MWWg0J
