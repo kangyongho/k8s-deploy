@@ -9,6 +9,10 @@
 <img src="https://img.shields.io/badge/VSCODE-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white"/>
 
+#### Notion
+<img src="https://github.com/kangyongho/k8s-deploy/assets/14036077/0029d2cf-b9ba-483c-a065-df1b5aa63250" width="200" height="264"/>
+
+
 #### INFO
 
 #### kubernetes deploy test
